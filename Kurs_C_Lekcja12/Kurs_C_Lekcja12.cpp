@@ -12,8 +12,10 @@ int dodawanie(int x, int y)
 
 int main()
 {
-    cout << " Wynikiem dodawania jest: ";
-     dodawanie(2, 5);
+    
+    cout << "Wynikiem dzialania jest: " << dodawanie(2, 5) << endl;
+    cout << "Wynikiem dzialania jest: " << dodawanie(2, 90) << endl;
+    cout << "Wynikiem dzialania jest: " << dodawanie(2, 45) << endl;
     return 0; 
 }
 
