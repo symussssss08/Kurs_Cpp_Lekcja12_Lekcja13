@@ -3,8 +3,17 @@
 
 #include <iostream>
 
+using namespace std; 
+
+int dodawanie(int x, int y)
+{
+    return x + y;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << " Wynikiem dodawania jest: ";
+     dodawanie(2, 5);
+    return 0; 
 }
 
